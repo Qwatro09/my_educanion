@@ -1,4 +1,4 @@
-class House():
+class House:
     def __init__(self, name, floors):
         self.name = name
         self.number_of_floors = floors
@@ -19,7 +19,7 @@ class House():
 
 
 h1 = House('ЖК Синее небо', 10)
-h2 = House('Хуторок', 20)
+h2 = House('ЖК Ближе к солнцу', 20)
 
 print(h1)
 print(h2)
